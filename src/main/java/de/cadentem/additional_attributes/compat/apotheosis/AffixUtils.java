@@ -21,6 +21,10 @@ public class AffixUtils {
             return;
         }
 
+        if (Objects.isNull(player)) {
+            return;
+        }
+
         double crafting = player.getAttributeValue(ApothAttributes.APOTHIC_CRAFTING.get());
 
         if (crafting == 0 || LootCategory.forItem(stack) == LootCategory.NONE) {
