@@ -14,6 +14,7 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 
 import java.util.List;
+import java.util.Objects;
 
 public class AffixUtils {
     public static void affixItem(final ItemStack stack, final Player player) {
